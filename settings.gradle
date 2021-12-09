@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "Helper"
 include ':app'
 include ':app:helper'
+include ':HelperLib'
