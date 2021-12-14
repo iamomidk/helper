@@ -1,13 +1,13 @@
-package com.iamomidk.helper.sharedPrefrences
+package com.iamomidk.helperlib.helper.sharedPrefrences
 
 import android.app.ActivityManager
 import android.content.Context
 import android.content.Context.ACTIVITY_SERVICE
 import android.content.SharedPreferences
-import com.iamomidk.helper.constants.Constants.SHP_DARK_MOOD
-import com.iamomidk.helper.constants.Constants.SHP_INTRO_PLAYED
-import com.iamomidk.helper.constants.Constants.SHP_KEY
-import com.iamomidk.helper.constants.Constants.SHP_SERVER_ID
+import com.iamomidk.helperlib.helper.constants.Constants.SHP_DARK_MOOD
+import com.iamomidk.helperlib.helper.constants.Constants.SHP_INTRO_PLAYED
+import com.iamomidk.helperlib.helper.constants.Constants.SHP_KEY
+import com.iamomidk.helperlib.helper.constants.Constants.SHP_SERVER_ID
 
 object ShpHelper {
 

@@ -1,7 +1,7 @@
 package com.iamomidk.helper.logger
 
 import android.util.Log
-import com.iamomidk.helper.BuildConfig.BUILD_TYPE
+import com.iamomidk.helperlib.BuildConfig.BUILD_TYPE
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 

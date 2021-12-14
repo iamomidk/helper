@@ -1,4 +1,4 @@
-package com.iamomidk.helper.abstracts
+package com.iamomidk.helperlib.helper.abstracts
 
 import android.app.Activity
 import android.content.Context
@@ -15,8 +15,8 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.model.GlideUrl
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.analytics.FirebaseAnalytics
-import com.iamomidk.helper.logger.Logger
-import com.iamomidk.helper.router.OnNavigate
+import com.iamomidk.helperlib.helper.logger.Logger
+import com.iamomidk.helperlib.helper.router.OnNavigate
 
 interface AbstractFrgInterface {
 	val TAG: String

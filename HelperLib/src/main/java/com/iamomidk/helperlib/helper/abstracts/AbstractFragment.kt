@@ -1,4 +1,4 @@
-package com.iamomidk.helper.abstracts
+package com.iamomidk.helperlib.helper.abstracts
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
-import com.iamomidk.helper.logger.Logger
+import com.iamomidk.helperlib.helper.logger.Logger
 
 abstract class AbstractFragment : Fragment(), AbstractFrgInterface {
 

@@ -1,11 +1,11 @@
-package com.iamomidk.helper.abstracts
+package com.iamomidk.helperlib.helper.abstracts
 
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonObject
 import com.google.gson.stream.JsonReader
-import com.iamomidk.helper.api.APIClient
-import com.iamomidk.helper.constants.Constants.BASE_URL
-import com.iamomidk.helper.logger.Logger
+import com.iamomidk.helperlib.helper.api.APIClient
+import com.iamomidk.helperlib.helper.constants.Constants.BASE_URL
+import com.iamomidk.helperlib.helper.logger.Logger
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable

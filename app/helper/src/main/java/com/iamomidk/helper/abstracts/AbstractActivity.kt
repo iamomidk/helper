@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package com.iamomidk.helper.abstracts
+package com.iamomidk.helperlib.helper.abstracts
 
 import android.content.Intent
 import android.os.Bundle

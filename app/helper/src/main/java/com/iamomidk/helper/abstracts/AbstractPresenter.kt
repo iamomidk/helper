@@ -1,4 +1,4 @@
-package com.iamomidk.helper.abstracts
+package com.iamomidk.helperlib.helper.abstracts
 
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonObject

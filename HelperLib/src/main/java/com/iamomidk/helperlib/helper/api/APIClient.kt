@@ -1,11 +1,11 @@
-package com.iamomidk.helper.api
+package com.iamomidk.helperlib.helper.api
 
 import com.google.gson.GsonBuilder
-import com.iamomidk.helper.BuildConfig
-import com.iamomidk.helper.constants.Constants.BASE_URL
-import com.iamomidk.helper.constants.Constants.CONNECT_TIMEOUT
-import com.iamomidk.helper.constants.Constants.READ_TIMEOUT
-import com.iamomidk.helper.constants.Constants.WRITE_TIMEOUT
+import com.iamomidk.helperlib.BuildConfig
+import com.iamomidk.helperlib.helper.constants.Constants.BASE_URL
+import com.iamomidk.helperlib.helper.constants.Constants.CONNECT_TIMEOUT
+import com.iamomidk.helperlib.helper.constants.Constants.READ_TIMEOUT
+import com.iamomidk.helperlib.helper.constants.Constants.WRITE_TIMEOUT
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient

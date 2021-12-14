@@ -1,4 +1,4 @@
-package com.iamomidk.helper.abstracts
+package com.iamomidk.helperlib.helper.abstracts
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -10,8 +10,8 @@ import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.model.GlideUrl
-import com.iamomidk.helper.clickListener.OnItemClickListener
-import com.iamomidk.helper.logger.Logger
+import com.iamomidk.helperlib.helper.clickListener.OnItemClickListener
+import com.iamomidk.helperlib.helper.logger.Logger
 
 abstract class AbstractAdapter<VH : RecyclerView.ViewHolder?, T> : RecyclerView.Adapter<VH>,
 	OnItemClickListener<T> {

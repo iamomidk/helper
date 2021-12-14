@@ -1,7 +1,7 @@
 package com.iamomidk.helper.api
 
 import com.google.gson.GsonBuilder
-import com.iamomidk.helper.BuildConfig
+import com.iamomidk.helperlib.BuildConfig
 import com.iamomidk.helper.constants.Constants.BASE_URL
 import com.iamomidk.helper.constants.Constants.CONNECT_TIMEOUT
 import com.iamomidk.helper.constants.Constants.READ_TIMEOUT

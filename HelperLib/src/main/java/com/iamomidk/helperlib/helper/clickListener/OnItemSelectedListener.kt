@@ -1,4 +1,4 @@
-package com.iamomidk.helper.clickListener
+package com.iamomidk.helperlib.helper.clickListener
 
 interface OnItemSelectedListener<T> {
 

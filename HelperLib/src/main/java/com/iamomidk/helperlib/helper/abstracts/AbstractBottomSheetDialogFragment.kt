@@ -1,4 +1,4 @@
-package com.iamomidk.helper.abstracts
+package com.iamomidk.helperlib.helper.abstracts
 
 import android.app.Dialog
 import android.content.DialogInterface
@@ -8,9 +8,9 @@ import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 import com.google.android.material.bottomsheet.BottomSheetBehavior.STATE_EXPANDED
 import com.google.android.material.bottomsheet.BottomSheetBehavior.from
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
-import com.iamomidk.helper.R
-import com.iamomidk.helper.clickListener.OnDismissListener
-import com.iamomidk.helper.clickListener.OnItemSelectedListener
+import com.iamomidk.helperlib.helper.clickListener.OnDismissListener
+import com.iamomidk.helperlib.helper.clickListener.OnItemSelectedListener
+import com.iamomidk.helperlib.R
 
 @Suppress("DEPRECATION")
 abstract class AbstractBottomSheetDialogFragment<T> : BottomSheetDialogFragment(),

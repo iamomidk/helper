@@ -1,4 +1,4 @@
-package com.iamomidk.helper.extentions
+package com.iamomidk.helperlib.helper.extentions
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -21,9 +21,9 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import com.iamomidk.helper.PersianCalendar
-import com.iamomidk.helper.abstracts.AbstractSwipeHelper
-import com.iamomidk.helper.constants.Constants.SHARE_VIA
-import com.iamomidk.helper.logger.Logger
+import com.iamomidk.helperlib.helper.abstracts.AbstractSwipeHelper
+import com.iamomidk.helperlib.helper.constants.Constants.SHARE_VIA
+import com.iamomidk.helperlib.helper.logger.Logger
 import java.math.BigDecimal
 import java.math.RoundingMode
 import java.text.DecimalFormat

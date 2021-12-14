@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package com.iamomidk.helper.abstracts
+package com.iamomidk.helperlib.helper.abstracts
 
 import android.app.Dialog
 import android.content.DialogInterface
@@ -8,9 +8,9 @@ import android.os.Bundle
 import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.FragmentManager
 import androidx.swiperefreshlayout.widget.CircularProgressDrawable
-import com.iamomidk.helper.R
-import com.iamomidk.helper.clickListener.OnDismissListener
-import com.iamomidk.helper.clickListener.OnItemSelectedListener
+import com.iamomidk.helperlib.helper.clickListener.OnDismissListener
+import com.iamomidk.helperlib.helper.clickListener.OnItemSelectedListener
+import com.iamomidk.helperlib.R
 
 abstract class AbstractDialogFragment<T> : DialogFragment(), AbstractFrgInterface,
 	OnItemSelectedListener<T>, OnDismissListener {

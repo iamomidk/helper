@@ -1,11 +1,11 @@
-package com.iamomidk.helper.abstracts
+package com.iamomidk.helperlib.helper.abstracts
 
 import android.graphics.*
 import android.graphics.drawable.ColorDrawable
 import android.graphics.drawable.Drawable
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
-import com.iamomidk.helper.abstracts.AbstractAdapter.Companion.NOT_SWEEPABLE
+import com.iamomidk.helperlib.helper.abstracts.AbstractAdapter.Companion.NOT_SWEEPABLE
 
 /**
  * swipeHelper for recyclerView

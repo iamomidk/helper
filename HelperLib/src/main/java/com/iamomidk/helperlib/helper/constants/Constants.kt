@@ -1,4 +1,4 @@
-package com.iamomidk.helper.constants
+package com.iamomidk.helperlib.helper.constants
 
 object Constants {
 

@@ -1,4 +1,4 @@
-package com.iamomidk.helper.router
+package com.iamomidk.helperlib.helper.router
 
 interface OnNavigate {
 

@@ -21,7 +21,7 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import com.iamomidk.helper.PersianCalendar
-import com.iamomidk.helper.abstracts.AbstractSwipeHelper
+import com.iamomidk.helperlib.helper.abstracts.AbstractSwipeHelper
 import com.iamomidk.helper.constants.Constants.SHARE_VIA
 import com.iamomidk.helper.logger.Logger
 import java.math.BigDecimal

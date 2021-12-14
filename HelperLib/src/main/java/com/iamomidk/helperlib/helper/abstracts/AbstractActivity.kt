@@ -1,6 +1,6 @@
 @file:Suppress("DEPRECATION")
 
-package com.iamomidk.helper.abstracts
+package com.iamomidk.helperlib.helper.abstracts
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,8 +9,8 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.IdRes
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import com.iamomidk.helper.logger.Logger
-import com.iamomidk.helper.sharedPrefrences.ShpHelper.darkMode
+import com.iamomidk.helperlib.helper.logger.Logger
+import com.iamomidk.helperlib.helper.sharedPrefrences.ShpHelper.darkMode
 
 abstract class AbstractActivity : AppCompatActivity() {
 
